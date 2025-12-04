@@ -77,6 +77,6 @@ XIAO_STUB: TX ACK (14 bytes)
 
 ## 📄 License
 
-MIT License  
+GNU General Public License  
 © Vespa Smart Trap
 
