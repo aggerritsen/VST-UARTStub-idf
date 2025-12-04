@@ -1,0 +1,68 @@
+# -----------------------------------------------------------------------------
+# ESP-IDF / CMake build artifacts
+# -----------------------------------------------------------------------------
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ESP-IDF project configuration (local, auto-generated)
+sdkconfig.default
+sdkconfig.old
+
+# ESP-IDF managed components (can be re-fetched)
+# Comment this out if you want to vendor them in the repo.
+managed_components/
+
+# -----------------------------------------------------------------------------
+# IDE / editor files
+# -----------------------------------------------------------------------------
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# Eclipse / CDT
+.project
+.cproject
+.settings/
+
+# Other editors
+*.swp
+*.swo
+*~
+.vim/
+.vscode-test/
+
+# -----------------------------------------------------------------------------
+# Tooling / language servers
+# -----------------------------------------------------------------------------
+compile_commands.json
+.ccls
+.clangd/
+.clang-format
+.clang-tidy
+
+# -----------------------------------------------------------------------------
+# OS / misc
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.log
+
+# Python virtual envs
+.venv/
+venv/
+env/
+
+# Node / front-end (if you add any web UI later)
+node_modules/
+dist/
+erase.cmd
